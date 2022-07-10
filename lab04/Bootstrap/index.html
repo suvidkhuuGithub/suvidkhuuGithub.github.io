@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap</title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        
+        <header class="navbar">
+            <h1 class="mx-auto">Header</h1>
+        </header>
+
+        <nav class="navbar">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Menu1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu3</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div id="column1" class="col-xs-6 col-sm-6 col-md-4 order-sm-1 order-md-1">
+                    Column1
+                </div>
+     
+                <div id="column2" class="col-xs-12 col-sm-12 col-md-4 order-sm-12 order-md-2">
+                    Column2
+                </div>  
+        
+                <div id="column3" class="col-xs-6 col-sm-6 col-md-4 order-sm-2 order-md-3">
+                    Column3
+                </div>
+        
+            </div>
+        </div>
+        
+        <footer class="navbar myfooter">
+            <h2 class="mx-auto">Footer</h2>
+        </footer>
+    </body>
+</html>
